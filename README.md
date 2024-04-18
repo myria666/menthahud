@@ -3,6 +3,7 @@
 You can install the main hud file like normal, i.e., drop the "MenthaHUD" and "speedo" folders into tf/custom. However, you NEED to add to your config the following two commands (preferably in autoexec or whatever idk if it resets or not when you restart game):
 
 `tf_mm_dashboard_slide_panel_step 0`
+
 `tf_dashboard_slide_time 0`
 
 This controls the animation when you click on "Casual" to queue, and the menu slides out from the side. For some bizarre reason this animation is permanently baked in so these two commands are the only way I can find (right now) that control it. The menu still slides back out of view when you close, and preferably it just vanishes but whatever.
