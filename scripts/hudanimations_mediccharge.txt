@@ -1,0 +1,27 @@
+event HudMedicCharged
+{
+	Animate ChargeLabelSmall FgColor 	"108 95 143 255" 	Linear 0.0 0.0
+	Animate ChargeLabel FgColor 	"131 122 154 255" 	Linear 0.0 0.0
+	
+	Animate	ChargeMeter		FgColor		"Ubercharge1"		Linear 0.0 0.1
+	Animate	ChargeMeter		FgColor		"Ubercharge2"		Linear 0.3 0.4
+
+	RunEvent HudMedicChargedLoop 0.6
+}
+
+// call to loop HudHealthBonusPulse
+event HudMedicChargedLoop
+{
+	RunEvent HudMedicCharged 0.0
+}
+
+event HudMedicChargedStop
+{
+	StopEvent HudMedicCharged 0.0
+	StopEvent HudMedicChargedLoop 0.0
+
+	Animate ChargeLabelSmall FgColor 	"ChargePercent" 	Linear 0.0 0.0
+	Animate ChargeLabelSmallShadow FgColor 	"69 69 69 255" 	Linear 0.0 0.0
+	Animate	ChargeMeter		FgColor		"Ubercharge Meter"		Linear 0.0 0.0001
+	Animate ChargeLabel		FgColor		"ChargePercent"		Linear 0.0 0.0001
+}
