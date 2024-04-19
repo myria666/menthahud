@@ -21,19 +21,19 @@
 	//all of them are disabled by default though
 
 	// center speedos
-  	"speedo_vertical_center" { "xpos" "c-30" "ypos" "c170" "visible" "0" } //195
-  	"speedo_horizontal_center" { "xpos" "c-30" "ypos" "c145" "visible" "0" }	//170
-	"speedo_absolute_center" { "xpos" "cs-0.5" "ypos" "c130" "visible" "0" }
+  	"speedo_vertical_center" { "xpos" "c-30" "ypos" "c170" "visible" "1" } //195
+  	"speedo_horizontal_center" { "xpos" "c-30" "ypos" "c145" "visible" "1" }	//170
+	"speedo_absolute_center" { "xpos" "cs-0.5" "ypos" "c130" "visible" "1" }
 
 	// left spedos
-	"speedo_vertical_left" { "xpos" "c-170" "ypos" "c145" "visible" "0" } //195
-  	"speedo_horizontal_left" { "xpos" "c-170" "ypos" "c160" "visible" "0" }	//170
-	"speedo_absolute_left" { "xpos" "c-170" "ypos" "c175" "visible" "0" }
+	"speedo_vertical_left" { "xpos" "c-170" "ypos" "c175" "visible" "1" } //195
+  	"speedo_horizontal_left" { "xpos" "c-170" "ypos" "c160" "visible" "1" }	//170
+	"speedo_absolute_left" { "xpos" "c-170" "ypos" "c145" "visible" "1" }
 
 	//right speedos
-	"speedo_vertical_right" { "xpos" "c122" "ypos" "c145" "visible" "0" } //195
-  	"speedo_horizontal_right" { "xpos" "c122" "ypos" "c160" "visible" "0" }	//170
-	"speedo_absolute_right" { "xpos" "c122" "ypos" "c175" "visible" "0" }
+	"speedo_vertical_right" { "xpos" "c122" "ypos" "c175" "visible" "1" } //195
+  	"speedo_horizontal_right" { "xpos" "c122" "ypos" "c160" "visible" "1" }	//170
+	"speedo_absolute_right" { "xpos" "c122" "ypos" "c145" "visible" "1" }
 
 	//--------------------------------------------------------------
 
