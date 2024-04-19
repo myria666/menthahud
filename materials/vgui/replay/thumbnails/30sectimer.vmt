@@ -1,0 +1,21 @@
+"UnlitGeneric"
+{
+	"$basetexture" "vgui\replay\thumbnails\mianums2"
+	"$alphatest" "1"
+	$currenttime 0
+	Proxies
+	{
+		//Extract time value
+		CurrentTime
+  		{
+			resultVar "$currenttime"
+  		}
+ 		//Convert speed to texture frame
+  		WrapMinMax
+  		{
+  			srcVar1 "$currenttime"
+  			maxVal "10"
+  			resultVar "$frame"
+  		}
+	}
+}
