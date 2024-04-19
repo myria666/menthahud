@@ -1,0 +1,23 @@
+// load the base configuration
+//exec default.cfg
+
+// Setup custom controller
+exec joystick.cfg
+
+// run a user script file if present
+exec autoexec.cfg
+
+//
+// stuff command line statements
+//
+stuffcmds
+
+// display the startup level. Remove this if you're using background images instead of maps
+startupmenu
+
+// Required HUD commands
+tf_mm_dashboard_slide_panel_step 0
+tf_dashboard_slide_time 0
+
+// Recommended HUD commands
+//tf_hud_target_id_alpha 255

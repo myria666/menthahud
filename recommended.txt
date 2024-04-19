@@ -1,3 +1,0 @@
-///Recommendations
-1. use tf_hud_target_id_alpha 255 or else it breaks
-2. I don't suggest changing the "HP Buff" color because I use it in a lot of other hud elements
